@@ -1,0 +1,410 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.container{
+    max-width: 1200px;
+     margin: auto;
+}
+.header{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-around;
+
+}
+.header h1{
+    color: green;
+}
+.searchbar input{
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+}
+.searchbar .btn{
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding: 10px;
+   
+    background-color: green;
+}
+.btn button{
+    background: none;
+    border: none;
+    color: white;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 60px;
+    height: 40px;
+}
+.icon1{
+    display: flex;
+    gap:15px;
+}
+.icon:hover
+{
+    color:green;
+}
+.icons:hover{
+    color:green;
+}
+.mon{
+    color:green;
+}
+.list ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    justify-content: center;
+}
+.list li:hover{
+    color:green;
+    cursor: pointer;   
+}
+.second{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.my1{
+    color: green;
+    font-weight:800;
+    font-size:xx-large; 
+    gap:5px;
+}
+.b1{
+    color: black;
+    border:1px,solid, black;
+    border-radius:10px;
+    padding: 5px;
+   
+}
+.b1:hover{
+    color: white;
+    cursor: pointer;
+    background-color: green;
+}
+.third{
+    display:flex; 
+    justify-content: space-around;
+
+}
+.one{
+    text-align:start;
+    padding: 10px;
+    margin: 10px;
+}
+.one h3{
+    color: rgb(228, 26, 66);
+    text-align: start;
+}
+.two{
+    text-align:start;
+    padding: 10px;
+    margin: 10px;
+}
+.two h3{
+    color:rgb(216, 216, 0);
+    text-align: start;
+}
+.three{
+    text-align:start;
+    padding: 10px;
+    margin: 10px;
+}
+.three h3{
+    color:rgb(255, 166, 0);
+}
+.four{
+    text-align:start;
+    padding: 10px;
+    margin: 10px;
+}
+.four h3{
+    color: rgb(136, 214, 19);
+    text-align: start;
+}
+.v1{
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.v1 h1{
+    color:green;
+    gap:2px;
+}
+.fourth{
+    display:flex;
+    justify-content: space-around;    
+}
+
+.center img{
+    height: 400px;
+}
+.aa h4{
+     color:green;
+     
+}
+.bb h4{
+    color: green;
+}
+.fifth{
+    display: flex;
+    justify-content: space-around;
+   
+   align-items: center;
+   text-align: center;  
+}
+.fifth h4 {
+  color:green;
+} 
+
+.sixth h1{
+   margin: 20px;
+    text-align: center;
+    color:green;
+}
+.ss6{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 10px; 
+}
+.g:hover{
+    color: green;
+}
+.seventh{
+    padding:50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+}
+.seventh img{
+    height: 200px;
+}
+.p1{
+    margin:10px;
+    background-color: rgb(162, 235, 16);
+    color: black;
+    width:fit-content;
+}
+.sh1 i{
+    color: orange;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.eighth{
+    background-color: rgb(214, 211, 211);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.e2 img{
+    height: 130px;
+    justify-content: center;
+}
+
+.n1{
+    background-color:rgb(214, 211,211);
+    justify-content: center;
+    text-align: center;
+}
+.nineth{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(214, 211,211);
+}
+.iconsset{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.iconsset i{
+font-size: 20px;
+}
+.cardone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    gap: 20px;
+}
+.nh1{
+    display: flex;flex-direction: column;
+    gap: 10px;
+}
+.t1 {
+     padding: 10px;
+     text-align: center;
+}
+.t1 h1{
+    color:green;
+}
+.tenth{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    text-align: center;
+}
+.hundred{
+ display: flex;
+ justify-content: space-around;
+ background-color: rgba(255, 250, 243, 0.897);
+ align-items: center;
+ align-content: center;
+}
+.zz1 img{
+ height: 100px;
+ width:fit-content;
+}
+.zz2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.zz3 input{
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+}
+.zz3 .btn{
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    background-color: green;
+}
+.btn button{
+    background: none;
+    border: none;
+}
+.zz3{
+    display: flex;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 60px;
+    height: 40px;
+}
+
+.thousand{
+    display:flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.ho1 img{
+    border: 2px,solid,black;
+    width: 50px;
+    border-radius: 120px;
+}
+.ho3 i{
+    color: yellowgreen;
+}
+.m1{
+    color:green;
+    text-align: center;
+    padding: 10px;
+}
+.nik1{
+    display: flex   ;
+      gap: 30px;
+      justify-content: center;
+      align-items: center;
+}
+.ho2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.million{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    gap: 20px;
+}
+.mmar{
+    display: flex
+;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding:30px;
+    background-color: rgba(255, 250, 243, 0.897);
+   
+}
+.foot1{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.foot1 h1{
+    color: green;
+}
+.footer h3{
+    color: green;
+}
+.footer li{
+    list-style: none;
+}
+.foot2 {
+ display: flex;
+ flex-direction: column;
+ gap:12px;
+}
+.foot2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.foot3 {
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+   }
+.foot3 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.foot4 {
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+   }
+.foot4 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.icones{
+     color:green;
+}
+
+/* .line{
+    height: 1.5px;
+    width: 80px;
+    background-color: greenyellow;
+} */
